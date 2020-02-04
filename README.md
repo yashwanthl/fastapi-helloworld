@@ -1,0 +1,1 @@
+This is sample application using FastAPI package for building python AP
