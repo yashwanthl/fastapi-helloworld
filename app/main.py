@@ -13,5 +13,4 @@ def read_item(item_id: int, q: str = None):
 
 if __name__ == "__main__":
     # Use the below line if you want to specify the port and/or host
-    #uvicorn.run(app, port=8000, host="127.0.0.1")
-    uvicorn.run(app)
+    uvicorn.run(app, port=8000, host="0.0.0.0")
